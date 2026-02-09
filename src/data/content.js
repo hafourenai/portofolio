@@ -6,7 +6,7 @@ export const personalInfo = {
   linkedin: "www.linkedin.com/in/muhammad-aldi-nova-4097b1286",
   github: "https://github.com/hafourenai",
   profileImage: "images/Profile.JPG",
-  cvUrl: "/CV.pdf",
+  cvUrl: "certificates/CV.pdf",
 };
 
 export const skills = [
