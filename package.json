@@ -1,14 +1,12 @@
 {
   "name": "portfolio-redesign",
-  "private": true,
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
+    "postinstall": "test -f node_modules/.bin/vite && chmod +x node_modules/.bin/vite || exit 0",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
-  },
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "framer-motion": "^12.33.0",
