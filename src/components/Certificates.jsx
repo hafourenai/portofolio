@@ -22,7 +22,7 @@ const Certificates = () => {
             Certifications
           </h2>
           <p className="text-text-secondary max-w-2xl mx-auto">
-            Professional certifications and achievements
+            certifications and achievements
           </p>
         </motion.div>
 
