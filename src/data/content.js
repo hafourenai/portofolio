@@ -62,10 +62,10 @@ export const projects = [
     description: "A Python-based tool for automated detection of common web application vulnerabilities.",
     detailedDescription: "Test Vulnerability Scanner performs automated security checks to identify potential vulnerabilities in web applications by analyzing common misconfigurations and attack patterns. Built with a modular design, the tool supports extensible testing modules and demonstrates fundamental vulnerability scanning and web security testing methodologies.",
     tech: ["Python", "Security Testing", "Web Analysis"],
-    image: "/projects/Test1.png", 
+    image: "/projects/Test.jpeg", 
     images: [
       "/projects/Test1.png",
-      "/projects/1.png"
+      "/projects/Test3.png"
     ],
     highlights: ["Tool for learning and testing"],
     detailedHighlights: [
@@ -125,12 +125,33 @@ export const projects = [
     category: "Downloader",
     link: "https://snap-tik-hon.vercel.app/",
     github: "https://github.com/hafourenai/SnapTik-Hon"
+  },
+  {
+    id: 5,
+    title: "Hafourenai Webscan",
+    description: "A web vulnerability scanner built with Python and Flask.",
+    detailedDescription: "Hafourenai Webscan is a web vulnerability scanner that helps identify common security issues in web applications. It uses Python and Flask to provide an easy-to-use interface for scanning and analyzing web applications.",
+    tech: ["Python", "Flask", "Web Security"],
+    image: "/projects/wsjsfm.png",
+    images: [
+      "/projects/wsjsfm1.png",
+      "/projects/wsjsfm2.png"
+    ],
+    highlights: ["Web Vulnerability Scanner"],
+    detailedHighlights: [
+      "Web Vulnerability Scanner",
+    ],
+    year: "2025",
+    teamSize: "Individual Project",
+    category: "Vulnerability Scanner",
+    link: "#",
+    github: "https://github.com/hafourenai/webscanjust4me"
   }
 ];
 
 export const contactInfo = {
   email: "muhamadaldinova056@gmail.com",
-  linkedin: "www.linkedin.com/in/muhammad-aldi-nova-4097b1286",
+  linkedin: "www.linkedin.com/in/muhammad-aldi-nova",
   github: "https://github.com/hafourenai",
   location: "Depok, Jawa Barat, Indonesia"
 };
