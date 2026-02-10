@@ -146,6 +146,29 @@ export const projects = [
     category: "Vulnerability Scanner",
     link: "#",
     github: "https://github.com/hafourenai/webscanjust4me"
+  },
+  {
+    id: 6,
+    title: "Belajar Seru - Hiperaktif",
+    description: "An interactive learning platform for active learners.",
+    detailedDescription: "Belajar Seru - Hiperaktif is an interactive learning platform designed to engage active learners through gamified content and dynamic learning experiences.",
+    tech: ["Flask", "Vanilla JavaScript", "CSS"],
+    image: "/projects/ha2.png",
+    images: [
+      "/projects/ha.png",
+      "/projects/ha1.png",
+      "/projects/ha3.png",
+    ],
+    highlights: ["Interactive Learning Platform"],
+    detailedHighlights: [
+      "Gamified Learning Content",
+      "Dynamic Learning Experiences",
+    ],
+    year: "2025",
+    teamSize: "Individual Project",
+    category: "Learning Platform",
+    link: "https://hiperaktif-production.up.railway.app/",
+    github: "https://github.com/hafourenai/Hiperaktif"
   }
 ];
 
