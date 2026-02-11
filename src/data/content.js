@@ -169,6 +169,29 @@ export const projects = [
     category: "Learning Platform",
     link: "https://hiperaktif-production.up.railway.app/",
     github: "https://github.com/hafourenai/Hiperaktif"
+  },
+  {
+    id: 7,
+    title: "Requitment System",
+    description: "A recruitment system for active learners.",
+    detailedDescription: "Learn how to make a recruitment system using Laravel, PHP, MySQL, and CSS.",
+    tech: ["Laravel", "PHP", "MySQL", "CSS"],
+    image: "/projects/mene.png",
+    images: [
+      "/projects/mene1.png",
+      "/projects/mene2.png",
+      "/projects/mene3.png",
+      "/projects/mene4.png"
+    ],
+    highlights: ["Recruitment System"],
+    detailedHighlights: [
+      "Recruitment System",
+    ],
+    year: "2026",
+    teamSize: "Individual Project",
+    category: "Recruitment System",
+    link: "#",
+    github: "https://github.com/hafourenai/Recruitment-System"
   }
 ];
 
