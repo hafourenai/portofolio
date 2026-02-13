@@ -19,7 +19,6 @@ const AllProjects = () => {
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -41,7 +40,6 @@ const AllProjects = () => {
           </p>
         </motion.div>
 
-        {/* Filter */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -66,7 +64,6 @@ const AllProjects = () => {
           </div>
         </motion.div>
 
-        {/* Projects Grid */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -82,7 +79,6 @@ const AllProjects = () => {
               whileHover={{ y: -8 }}
               className="glass-card group overflow-hidden flex flex-col h-full hover:shadow-xl transition-all duration-300"
             >
-              {/* Project image */}
               <div className="relative aspect-[4/3] overflow-hidden bg-bg-secondary group-hover:scale-[1.02] transition-transform duration-500">
                 {project.image ? (
                   <img 
@@ -96,7 +92,6 @@ const AllProjects = () => {
                   </div>
                 )}
                 
-                {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 backdrop-blur-[2px]">
                   <Link
                     to={`/project/${project.id}`}
@@ -128,7 +123,6 @@ const AllProjects = () => {
                 </div>
               </div>
 
-              {/* Project content */}
               <div className="p-6 flex flex-col flex-grow">
                 <div className="flex-grow">
                   <h3 className="text-xl font-bold text-text-primary mb-2 group-hover:text-primary transition-colors">
@@ -140,7 +134,6 @@ const AllProjects = () => {
                   </p>
                 </div>
 
-                {/* Tech stack */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((tech, techIndex) => (
                     <span
@@ -152,7 +145,6 @@ const AllProjects = () => {
                   ))}
                 </div>
 
-                {/* Footer / Highlights */}
                 <div className="pt-4 border-t border-border-light flex items-center justify-between text-xs text-text-muted">
                   <div className="flex items-center gap-1">
                     <Star className="w-3.5 h-3.5 text-accent" />
@@ -170,7 +162,6 @@ const AllProjects = () => {
           ))}
         </motion.div>
 
-        {/* No Results */}
         {filteredProjects.length === 0 && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -191,7 +182,6 @@ const AllProjects = () => {
           </motion.div>
         )}
 
-        {/* Stats */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

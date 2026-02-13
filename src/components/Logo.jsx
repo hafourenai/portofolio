@@ -15,7 +15,6 @@ const Logo = ({ size = "md", className = "" }) => {
         className="w-full h-full transform transition-transform duration-300 group-hover:scale-110"
         xmlns="http://www.w3.org/2000/svg"
       >
-        {/* Background circle with gradient */}
         <defs>
           <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#00D9FF" />
@@ -30,7 +29,6 @@ const Logo = ({ size = "md", className = "" }) => {
           </filter>
         </defs>
         
-        {/* Outer ring */}
         <circle
           cx="50"
           cy="50"
@@ -42,16 +40,13 @@ const Logo = ({ size = "md", className = "" }) => {
           className="animate-pulse"
         />
         
-        {/* Letter A - Geometric design */}
         <g filter="url(#glow)">
-          {/* Main triangle shape */}
           <path
             d="M 50 20 L 75 70 L 60 70 L 50 50 L 40 70 L 25 70 Z"
             fill="url(#logoGradient)"
             className="transition-all duration-300 group-hover:opacity-90"
           />
           
-          {/* Cross bar */}
           <rect
             x="35"
             y="45"
@@ -61,7 +56,6 @@ const Logo = ({ size = "md", className = "" }) => {
             className="transition-all duration-300 group-hover:opacity-90"
           />
           
-          {/* Tech dots */}
           <circle cx="50" cy="30" r="2" fill="#00D9FF" className="animate-pulse" />
           <circle cx="35" cy="60" r="1.5" fill="#FF006E" className="animate-pulse delay-75" />
           <circle cx="65" cy="60" r="1.5" fill="#FF006E" className="animate-pulse delay-150" />

@@ -22,7 +22,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-Security tools and analysis projects demonstrating practical cyber security expertis
+            Security tools and analysis projects demonstrating practical cyber security expertise
           </p>
         </motion.div>
 
@@ -37,7 +37,6 @@ Security tools and analysis projects demonstrating practical cyber security expe
               whileHover={{ y: -8 }}
               className="glass-card group overflow-hidden flex flex-col h-full hover:shadow-xl transition-all duration-300"
             >
-              {/* Project image */}
               <div className="relative aspect-[4/3] overflow-hidden bg-bg-secondary group-hover:scale-[1.02] transition-transform duration-500">
                 { project.image ? (
                    <img 
@@ -51,7 +50,6 @@ Security tools and analysis projects demonstrating practical cyber security expe
                   </div>
                 )}
                 
-{/* Overlay on hover */}
                  <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 backdrop-blur-[2px]">
                     <Link
                      to={`/project/${project.id}`}
@@ -83,7 +81,6 @@ Security tools and analysis projects demonstrating practical cyber security expe
                  </div>
               </div>
 
-              {/* Project content */}
               <div className="p-6 flex flex-col flex-grow">
                 <div className="flex-grow">
                    <h3 className="text-xl font-bold text-text-primary mb-2 group-hover:text-primary transition-colors">
@@ -95,7 +92,6 @@ Security tools and analysis projects demonstrating practical cyber security expe
                   </p>
                 </div>
 
-                {/* Tech stack */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((tech, techIndex) => (
                     <span
@@ -107,7 +103,6 @@ Security tools and analysis projects demonstrating practical cyber security expe
                   ))}
                 </div>
 
-                {/* Footer / Highlights */}
                  <div className="pt-4 border-t border-border-light flex items-center justify-between text-xs text-text-muted">
                     <div className="flex items-center gap-1">
                        <Star className="w-3.5 h-3.5 text-accent" />
@@ -125,7 +120,6 @@ Security tools and analysis projects demonstrating practical cyber security expe
           ))}
         </div>
 
-        {/* View all projects button */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

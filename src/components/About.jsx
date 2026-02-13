@@ -26,7 +26,6 @@ const About = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Profile Visual */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -35,11 +34,9 @@ const About = () => {
             className="relative"
           >
             <div className="relative w-full max-w-md mx-auto lg:mx-0 aspect-[4/6] max-h-[400px]">
-              {/* Decorative elements */}
               <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-2xl opacity-60" />
               <div className="absolute -inset-4 border-2 border-primary/20 rounded-2xl animate-pulse" />
               
-              {/* Profile Photo Container */}
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-lg border-4 border-bg-card">
                 <img 
                   src={personalInfo.profileImage} 
@@ -48,7 +45,6 @@ const About = () => {
                 />
               </div>
 
-              {/* Float Cards */}
               <motion.div 
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
@@ -67,7 +63,6 @@ const About = () => {
             </div>
           </motion.div>
 
-          {/* About Content */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}

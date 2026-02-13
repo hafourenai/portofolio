@@ -6,7 +6,6 @@ import { Github, Linkedin, Mail, Download, ArrowRight } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="min-h-[90vh] flex items-center justify-center relative overflow-hidden">
-      {/* Dynamic Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="blob blob-1" />
         <div className="blob blob-2" />
@@ -16,8 +15,7 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
-          
-          {/* Text Content */}
+
           <div className="flex-1 text-center lg:text-left">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -90,7 +88,7 @@ const Hero = () => {
             </motion.div>
           </div>
 
-          {/* Visual/Image Side */}
+          {/* Image Side */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -98,12 +96,10 @@ const Hero = () => {
             className="flex-1 relative hidden lg:block"
           >
             <div className="relative w-full max-w-md mx-auto aspect-[4/6] max-h-[400px]">
-              {/* Abstract decorative circles */}
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-100 to-indigo-100 rounded-full opacity-60 animate-blob" />
               <div className="absolute -right-8 top-0 w-64 h-64 bg-amber-100 rounded-full opacity-60 mix-blend-multiply filter blur-xl animate-blob animation-delay-2000" />
               <div className="absolute -left-8 -bottom-8 w-64 h-64 bg-pink-100 rounded-full opacity-60 mix-blend-multiply filter blur-xl animate-blob animation-delay-4000" />
               
-              {/* Profile Image Container */}
               <div className="relative z-10 w-full h-full rounded-2xl overflow-hidden shadow-lift border-[8px] border-white/50 backdrop-blur-sm">
                  <img 
                    src={personalInfo.profileImage} 

@@ -26,7 +26,6 @@ const Certificates = () => {
           </p>
         </motion.div>
 
-        {/* Grid Display */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {certificates.map((cert, index) => (
             <motion.div
@@ -83,7 +82,6 @@ const Certificates = () => {
         </div>
       </div>
 
-      {/* Modal Lightbox */}
       <AnimatePresence>
         {selectedCert && (
           <motion.div

@@ -5,8 +5,8 @@ export const personalInfo = {
   email: "muhamadaldinova056@gmail.com",
   linkedin: "www.linkedin.com/in/muhammad-aldi-nova-4097b1286",
   github: "https://github.com/hafourenai",
-  profileImage: "images/Profile.JPG",
-  cvUrl: "certificates/CV.pdf",
+  profileImage: "/images/Profile.JPG",
+  cvUrl: "/certificates/CV.pdf",
 };
 
 export const skills = [
@@ -58,10 +58,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Test Vulnerability Scanner",
+    title: "Love U N Vulnerability Scanner",
     description: "A Python-based tool for automated detection of common web application vulnerabilities.",
-    detailedDescription: "Test Vulnerability Scanner performs automated security checks to identify potential vulnerabilities in web applications by analyzing common misconfigurations and attack patterns. Built with a modular design, the tool supports extensible testing modules and demonstrates fundamental vulnerability scanning and web security testing methodologies.",
-    tech: ["Python", "Security Testing", "Web Analysis"],
+    detailedDescription: "Love U N Vulnerability Scanner performs automated security checks to identify potential vulnerabilities in web applications by analyzing common misconfigurations and attack patterns. Built with a modular design, the tool supports extensible testing modules and demonstrates fundamental vulnerability scanning and web security testing methodologies.",
+    tech: ["Python", "Security Testing", "Web Analysis","Proxy Rotation"],
     image: "/projects/Test.jpeg", 
     images: [
       "/projects/Test1.png",
@@ -109,7 +109,7 @@ export const projects = [
   {
     id: 4,
     title: "SnapTik",
-    description: "Tiktok Downloade",
+    description: "Tiktok Downloader",
     detailedDescription: "SnapTik is a Tiktok downloader that allows users to download Tiktok videos and save them to their device.",
     tech: ["Vanilla JavaScript", "HTML", "CSS"],
     image: "/projects/snaptik.png",
@@ -131,7 +131,7 @@ export const projects = [
     title: "Hafourenai Webscan",
     description: "A web vulnerability scanner built with Python and Flask.",
     detailedDescription: "Hafourenai Webscan is a web vulnerability scanner that helps identify common security issues in web applications. It uses Python and Flask to provide an easy-to-use interface for scanning and analyzing web applications.",
-    tech: ["Python", "Flask", "Web Security"],
+    tech: ["Python", "Proxy Rotation", "Web Security","Tor Integration"],
     image: "/projects/wsjsfm.png",
     images: [
       "/projects/wsjsfm1.png",
@@ -192,6 +192,51 @@ export const projects = [
     category: "Recruitment System",
     link: "#",
     github: "https://github.com/hafourenai/Recruitment-System"
+  },
+  {
+    id: 8,
+    title: "Finance Manager",
+    description: "A finance management system for tracking expenses and income.",
+    detailedDescription: "Learn how to make a finance management system using Laravel, PHP, MySQL, and CSS.",
+    tech: ["React","Mysql", "Tailwind CSS","NodeJS"],
+    image: "/projects/finance.png",
+    images: [
+      "/projects/finance1.png",
+      "/projects/finance2.png",
+      "/projects/finance3.png",
+      "/projects/finance4.png"
+    ],
+    highlights: ["A finance management system"],
+    detailedHighlights: [
+      "Finance Management System",
+    ],
+    year: "2025",
+    teamSize: "Individual Project",
+    category: "Finance Management",
+    link: "#",
+    github: "https://github.com/hafourenai/Finance-Manager"
+  },
+  {
+    id: 9,
+    title: "Finance Manager (APK)",
+    description: "A finance management system for tracking expenses and income.",
+    detailedDescription: "Learn how to make a finance management system using Laravel, PHP, MySQL, and CSS.",
+    tech: ["Flutter"],
+    image: "/projects/apk1.jpeg",
+    images: [
+      "/projects/apk.jpeg",
+      "/projects/apk2.jpeg",
+      "/projects/apk3.jpeg"
+    ],
+    highlights: ["A finance management system"],
+    detailedHighlights: [
+      "Finance Management System",
+    ],
+    year: "2026",
+    teamSize: "Individual Project",
+    category: "Application",
+    link: "/projects/app-release.apk",
+    github: "https://github.com/hafourenai/Finance-Manager"
   }
 ];
 

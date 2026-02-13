@@ -19,18 +19,14 @@ const Contact = () => {
     setSubmitStatus('');
 
     try {
-      // For Google Sheets integration, you'll need to set up a webhook service
-      // Options: SheetDB, Sheet.best, or Google Apps Script Web App
-      // Here's the structure for SheetDB (you'll need to create an account)
       
-      const webhookUrl = 'https://sheetdb.io/api/v1/378qsd6bi3cu4'; // Replace with your actual URL
+      const webhookUrl = 'https://sheetdb.io/api/v1/378qsd6bi3cu4'; // My Sheet GWeh
       
       const response = await fetch(webhookUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          // Add your API key if using SheetDB
-          // 'Authorization': 'Bearer YOUR_API_KEY'
+
         },
         body: JSON.stringify({
           name: formData.name,
@@ -83,7 +79,7 @@ const Contact = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-bg-card rounded-3xl shadow-xl overflow-hidden border border-border-light">
-          {/* Contact Info (Side Panel) */}
+          
           <div className="bg-gradient-to-br from-primary to-primary-dark p-10 text-white flex flex-col justify-between">
             <div>
               <h3 className="text-2xl font-bold mb-6">

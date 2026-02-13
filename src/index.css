@@ -1,46 +1,42 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @import "tailwindcss";
 
 @layer base {
   :root {
-    /* Light Mode Variables */
-    --color-primary-base: 59 130 246; /* #3B82F6 */
-    --color-primary-dark-base: 37 99 235; /* #2563EB */
-    --color-secondary-base: 100 116 139; /* #64748B */
-    --color-accent-base: 245 158 11; /* #F59E0B */
+    --color-primary-base: 59 130 246; 
+    --color-primary-dark-base: 37 99 235; 
+    --color-secondary-base: 100 116 139; 
+    --color-accent-base: 245 158 11; 
     
-    --color-bg-primary: 248 249 251; /* #F8F9FB */
-    --color-bg-secondary: 241 245 249; /* #F1F5F9 */
-    --color-bg-card: 255 255 255; /* #FFFFFF */
+    --color-bg-primary: 248 249 251; 
+    --color-bg-secondary: 241 245 249; 
+    --color-bg-card: 255 255 255; 
     
-    --color-text-primary: 26 31 44; /* #1A1F2C */
-    --color-text-secondary: 74 85 104; /* #4A5568 */
-    --color-text-muted: 148 163 184; /* #94A3B8 */
+    --color-text-primary: 26 31 44; 
+    --color-text-secondary: 74 85 104; 
+    --color-text-muted: 148 163 184; 
     
-    --color-border: 226 232 240; /* #E2E8F0 */
-    --color-border-light: 241 245 249; /* #F1F5F9 */
+    --color-border: 226 232 240; 
+    --color-border-light: 241 245 249; 
   }
 
   .dark {
-    /* Dark Mode Variables - Overrides */
-    --color-primary-base: 96 165 250; /* #60A5FA - Lighter blue for dark mode */
-    --color-primary-dark-base: 59 130 246; /* #3B82F6 */
+    --color-primary-base: 96 165 250; 
+    --color-primary-dark-base: 59 130 246; 
     
-    --color-bg-primary: 15 23 42; /* #0F172A */
-    --color-bg-secondary: 30 41 59; /* #1E293B */
-    --color-bg-card: 30 41 59; /* #1E293B */
+    --color-bg-primary: 15 23 42; 
+    --color-bg-secondary: 30 41 59; 
+    --color-bg-card: 30 41 59; 
     
-    --color-text-primary: 248 250 252; /* #F8FAFC */
-    --color-text-secondary: 203 213 225; /* #CBD5E1 */
-    --color-text-muted: 148 163 184; /* #94A3B8 */
+    --color-text-primary: 248 250 252; 
+    --color-text-secondary: 203 213 225; 
+    --color-text-muted: 148 163 184; 
     
-    --color-border: 51 65 85; /* #334155 */
-    --color-border-light: 30 41 59; /* #1E293B */
+    --color-border: 51 65 85; 
+    --color-border-light: 30 41 59; 
   }
 
-  /* Default theme application to body/html */
   body {
     @apply text-text-primary antialiased transition-colors duration-300;
     background-color: rgb(var(--color-bg-primary));
@@ -126,7 +122,6 @@
     background: #94A3B8;
   }
 
-  /* Utility container for layouts */
   .container-custom {
     @apply max-w-7xl mx-auto px-4;
   }
@@ -143,7 +138,6 @@
     }
   }
 
-  /* Gradient Text */
   .gradient-text-primary {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-dark;
   }
@@ -152,7 +146,6 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-orange-500;
   }
 
-  /* Glassmorphism Cards */
   .glass-card {
     @apply bg-bg-card/70 backdrop-blur-lg border border-border/50 rounded-2xl;
     box-shadow: 0 10px 25px -10px rgba(15, 23, 42, 0.12), 0 4px 10px -6px rgba(15, 23, 42, 0.08);
@@ -166,7 +159,6 @@
     box-shadow: 0 18px 45px -18px rgba(15, 23, 42, 0.28), 0 10px 20px -10px rgba(15, 23, 42, 0.16);
   }
 
-  /* Premium Buttons */
   .btn-primary {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-xl font-semibold text-white transition-all duration-300;
     background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
@@ -195,7 +187,6 @@
     box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
   }
 
-  /* Animated Blobs Background */
   .blob {
     @apply absolute rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob;
   }

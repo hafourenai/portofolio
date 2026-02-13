@@ -155,7 +155,6 @@ const ProjectDetail = () => {
           transition={{ delay: 0.2 }}
           className="grid grid-cols-1 lg:grid-cols-3 gap-8"
         >
-          {/* Key Highlights */}
           <div className="lg:col-span-2 space-y-8">
             <div className="glass-card p-8">
               <h2 className="text-2xl font-bold mb-6">Key Highlights</h2>
@@ -171,7 +170,6 @@ const ProjectDetail = () => {
               </div>
             </div>
 
-            {/* Project Description */}
             <div className="glass-card p-8">
               <h2 className="text-2xl font-bold mb-6">About This Project</h2>
               <div className="space-y-4 text-text-secondary leading-relaxed">
@@ -195,7 +193,6 @@ const ProjectDetail = () => {
             </div>
           </div>
 
-          {/* Sidebar Info */}
           <div className="space-y-6">
             <div className="glass-card p-6">
               <h3 className="text-lg font-semibold mb-4">Project Info</h3>
@@ -224,7 +221,6 @@ const ProjectDetail = () => {
               </div>
             </div>
 
-            {/* Quick Actions */}
             <div className="glass-card p-6">
               <h3 className="text-lg font-semibold mb-4">Quick Actions</h3>
               <div className="space-y-3">

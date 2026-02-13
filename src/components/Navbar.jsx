@@ -50,7 +50,6 @@ const Navbar = () => {
             : 'mx-4 w-full max-w-7xl px-4 sm:px-8 py-4 bg-transparent'
         }`}>
           <div className="flex items-center justify-between">
-            {/* Logo */}
             <div className="flex items-center cursor-pointer" onClick={() => handleNavClick('#home')}>
               <Logo size="sm" />
               <div className="ml-2 flex flex-col">
@@ -73,9 +72,7 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* CTA / Action */}
             <div className="hidden md:flex items-center gap-3">
-              {/* Real-time Clock */}
               <div className="text-sm font-medium text-text-secondary font-mono mr-2 hidden sm:block">
                 {time.toLocaleTimeString([], { hour12: false })}
               </div>
