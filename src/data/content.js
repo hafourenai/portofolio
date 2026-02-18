@@ -84,8 +84,8 @@ export const projects = [
   {
     id: 3,
     title: "Honey Vulnerability Scanner",
-    description: "A stealth-focused web vulnerability scanner with anonymity-oriented network handling.",
-    detailedDescription: "Honey Vulnerability Scanner conducts web reconnaissance and vulnerability analysis using proxy rotation and Tor integration to enhance anonymity during scanning. The tool combines network-level obfuscation with automated web analysis techniques to support discreet and effective security assessment.",
+    description: "Learning about web vulnerability scanning",
+    detailedDescription: "I am currently learning how to build a vulnerability scanner. At this stage, I am developing it as a single-file project, where the payloads, detection rules, attack types, logging system, and reporting mechanisms are all implemented within one file. This is my initial step in creating an amateur cybersecurity tool, primarily aimed at strengthening my logical thinking and understanding of security concepts. In the future, I plan to further refine, modularize, and expand its capabilities as my skills continue to grow.",
     tech: ["Python", "Proxy Rotation", "Tor Integration", "Network Security"],
     image: "/projects/honey.png",
     images: [
@@ -129,8 +129,8 @@ export const projects = [
   {
     id: 5,
     title: "Hafourenai Webscan",
-    description: "A web vulnerability scanner built with Python and Flask.",
-    detailedDescription: "Hafourenai Webscan is a web vulnerability scanner that helps identify common security issues in web applications. It uses Python and Flask to provide an easy-to-use interface for scanning and analyzing web applications.",
+    description: "A web vulnerability scanner built with Python.",
+    detailedDescription: "This project is an enhanced version of my previous tool, with greater use of AI to modularize and restructure the code. I expanded the payload collection and separated them into dedicated files that can be imported and executed as needed. The scanner now injects payloads individually into the target for more controlled testing. I also improved the Tor integration, which was previously unstable, and implemented more cautious request-handling especially when sending payloads to ensure safer and more controlled execution.",
     tech: ["Python", "Proxy Rotation", "Web Security","Tor Integration"],
     image: "/projects/wsjsfm.png",
     images: [
@@ -172,29 +172,6 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Requitment System",
-    description: "A recruitment system for active learners.",
-    detailedDescription: "Learn how to make a recruitment system using Laravel, PHP, MySQL, and CSS.",
-    tech: ["Laravel", "PHP", "MySQL", "CSS"],
-    image: "/projects/mene.png",
-    images: [
-      "/projects/mene1.png",
-      "/projects/mene2.png",
-      "/projects/mene3.png",
-      "/projects/mene4.png"
-    ],
-    highlights: ["Recruitment System"],
-    detailedHighlights: [
-      "Recruitment System",
-    ],
-    year: "2026",
-    teamSize: "Individual Project",
-    category: "Recruitment System",
-    link: "#",
-    github: "https://github.com/hafourenai/Recruitment-System"
-  },
-  {
-    id: 8,
     title: "Finance Manager",
     description: "A finance management system for tracking expenses and income.",
     detailedDescription: "Learn how to make a finance management system using Laravel, PHP, MySQL, and CSS.",
@@ -214,28 +191,6 @@ export const projects = [
     teamSize: "Individual Project",
     category: "Finance Management",
     link: "#",
-    github: "https://github.com/hafourenai/Finance-Manager"
-  },
-  {
-    id: 9,
-    title: "Finance Manager (APK)",
-    description: "A finance management system for tracking expenses and income.",
-    detailedDescription: "Learn how to make a finance management system using Laravel, PHP, MySQL, and CSS.",
-    tech: ["Flutter"],
-    image: "/projects/apk1.jpeg",
-    images: [
-      "/projects/apk.jpeg",
-      "/projects/apk2.jpeg",
-      "/projects/apk3.jpeg"
-    ],
-    highlights: ["A finance management system"],
-    detailedHighlights: [
-      "Finance Management System",
-    ],
-    year: "2026",
-    teamSize: "Individual Project",
-    category: "Application",
-    link: "/projects/app-release.apk",
     github: "https://github.com/hafourenai/Finance-Manager"
   }
 ];

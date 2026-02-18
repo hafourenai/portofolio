@@ -173,22 +173,7 @@ const ProjectDetail = () => {
             <div className="glass-card p-8">
               <h2 className="text-2xl font-bold mb-6">About This Project</h2>
               <div className="space-y-4 text-text-secondary leading-relaxed">
-                {project.detailedDescription ? (
-                  <p>{project.detailedDescription}</p>
-                ) : (
-                  <>
-                    <p>
-                      This project demonstrates advanced capabilities in {project.tech[0].toLowerCase()} 
-                      development with a focus on security and performance. The implementation follows 
-                      industry best practices and incorporates modern development methodologies.
-                    </p>
-                    <p>
-                      Key challenges addressed include scalability, maintainability, and user experience 
-                      optimization. The solution has been thoroughly tested and validated in real-world 
-                      scenarios.
-                    </p>
-                  </>
-                )}
+                <p>{project.detailedDescription}</p>
               </div>
             </div>
           </div>
