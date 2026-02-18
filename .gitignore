@@ -3,3 +3,4 @@ node_modules
 src/components/Contact.jsx
 src/data/content.js
 src/data/content_example.js
+data/content.js
