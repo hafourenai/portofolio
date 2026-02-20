@@ -22,7 +22,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-            Security tools and analysis projects demonstrating practical cyber security expertise
+            Amateur Security Tools. Explore my latest work in web security and development, showcasing my passion for creating innovative solutions and learning new technologies.
           </p>
         </motion.div>
 

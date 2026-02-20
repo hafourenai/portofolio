@@ -83,31 +83,6 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Honey Vulnerability Scanner",
-    description: "Learning about web vulnerability scanning",
-    detailedDescription: "I am currently learning how to build a vulnerability scanner. At this stage, I am developing it as a single-file project, where the payloads, detection rules, attack types, logging system, and reporting mechanisms are all implemented within one file. This is my initial step in creating an amateur cybersecurity tool, primarily aimed at strengthening my logical thinking and understanding of security concepts. In the future, I plan to further refine, modularize, and expand its capabilities as my skills continue to grow.",
-    tech: ["Python", "Proxy Rotation", "Tor Integration", "Network Security"],
-    image: "/projects/honey.png",
-    images: [
-      "/projects/honey.png",
-      "/projects/honey1.png"
-    ],
-    highlights: ["Tool for learning and testing"],
-    detailedHighlights: [
-      "Advanced proxy management",
-      "Integration with Tor network",
-      "Stealth scanning techniques",
-      "Comprehensive web reconnaissance",
-      "Anonymity-focused design"
-    ],
-    year: "2025",
-    teamSize: "Individual Project",
-    category: "Vulnerability Scanner",
-    link: "#",
-    github: "https://github.com/hafourenai/hafourenai-webscan-just4me"
-  },
-  {
-    id: 4,
     title: "SnapTik",
     description: "Tiktok Downloader",
     detailedDescription: "SnapTik is a Tiktok downloader that allows users to download Tiktok videos and save them to their device.",
@@ -127,51 +102,7 @@ export const projects = [
     github: "https://github.com/hafourenai/SnapTik-Hon"
   },
   {
-    id: 5,
-    title: "Hafourenai Webscan",
-    description: "A web vulnerability scanner built with Python.",
-    detailedDescription: "This project is an enhanced version of my previous tool, with greater use of AI to modularize and restructure the code. I expanded the payload collection and separated them into dedicated files that can be imported and executed as needed. The scanner now injects payloads individually into the target for more controlled testing. I also improved the Tor integration, which was previously unstable, and implemented more cautious request-handling especially when sending payloads to ensure safer and more controlled execution.",
-    tech: ["Python", "Proxy Rotation", "Web Security","Tor Integration"],
-    image: "/projects/wsjsfm.png",
-    images: [
-      "/projects/wsjsfm1.png",
-      "/projects/wsjsfm2.png"
-    ],
-    highlights: ["Web Vulnerability Scanner"],
-    detailedHighlights: [
-      "Web Vulnerability Scanner",
-    ],
-    year: "2025",
-    teamSize: "Individual Project",
-    category: "Vulnerability Scanner",
-    link: "#",
-    github: "https://github.com/hafourenai/webscanjust4me"
-  },
-  {
-    id: 6,
-    title: "Belajar Seru - Hiperaktif",
-    description: "An interactive learning platform for active learners.",
-    detailedDescription: "Belajar Seru - Hiperaktif is an interactive learning platform designed to engage active learners through gamified content and dynamic learning experiences.",
-    tech: ["Flask", "Vanilla JavaScript", "CSS"],
-    image: "/projects/ha2.png",
-    images: [
-      "/projects/ha.png",
-      "/projects/ha1.png",
-      "/projects/ha3.png",
-    ],
-    highlights: ["Interactive Learning Platform"],
-    detailedHighlights: [
-      "Gamified Learning Content",
-      "Dynamic Learning Experiences",
-    ],
-    year: "2025",
-    teamSize: "Individual Project",
-    category: "Learning Platform",
-    link: "https://hiperaktif-production.up.railway.app/",
-    github: "https://github.com/hafourenai/Hiperaktif"
-  },
-  {
-    id: 7,
+    id: 4,
     title: "Finance Manager",
     description: "A finance management system for tracking expenses and income.",
     detailedDescription: "Learn how to make a finance management system using Laravel, PHP, MySQL, and CSS.",

@@ -36,7 +36,7 @@ const AllProjects = () => {
             All Projects
           </h1>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Complete collection of my cyber security projects and tools
+            Complete collection of my projects and tools
           </p>
         </motion.div>
 
