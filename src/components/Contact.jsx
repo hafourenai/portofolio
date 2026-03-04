@@ -20,7 +20,7 @@ const Contact = () => {
 
     try {
       
-      const webhookUrl = 'https://sheetdb.io/api/v1/378qsd6bi3cu4'; // My Sheet GWeh
+      // const webhookUrl = 'https://sheetdb.io/api/v1/378qsd6bi3cu4'; // My Sheet GWeh
       
       const response = await fetch(webhookUrl, {
         method: 'POST',
