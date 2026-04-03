@@ -56,30 +56,25 @@ export const projects = [
     link: "https://cekurlmu.netlify.app/",
     github: "https://github.com/hafourenai/phishing-detector-backend"
   },
-  {
-    id: 2,
-    title: "Love U N Vulnerability Scanner",
-    description: "A Python-based tool for automated detection of common web application vulnerabilities.",
-    detailedDescription: "Love U N Vulnerability Scanner performs automated security checks to identify potential vulnerabilities in web applications by analyzing common misconfigurations and attack patterns. Built with a modular design, the tool supports extensible testing modules and demonstrates fundamental vulnerability scanning and web security testing methodologies.",
-    tech: ["Python", "Security Testing", "Web Analysis","Proxy Rotation"],
-    image: "/projects/Test.jpeg", 
+    {
+    id: 5,
+    title: "Honsharing",
+    description: "chatbot for those of you who feel lonely",
+    detailedDescription: "Honsharing is a chatbot that helps you with your daily tasks and provides emotional support.",
+    tech: ["Next.js","IndexedDB", "Tailwind CSS"],
+    image: "/projects/preview honeyy.png",
     images: [
-      "/projects/Test1.png",
-      "/projects/Test3.png"
+    "/projects/preview honeyy.png"
     ],
-    highlights: ["Tool for learning and testing"],
+    highlights: ["chatbot for those of you who feel lonely"],
     detailedHighlights: [
-      "Custom security test modules",
-      "Automated vulnerability detection",
-      "Clean and efficient Python code",
-      "Learning resource for security",
-      "Pluggable architecture for new tests"
+      "chatbot for those of you who feel lonely",
     ],
     year: "2026",
     teamSize: "Individual Project",
-    category: "Vulnerability Assessment",
-    link: "#",
-    github: "https://github.com/hafourenai/Test"
+    category: "Chatbot",
+    link: "https://honsharing.vercel.app/",
+    github: "https://github.com/hafourenai/Honsharing"
   },
   {
     id: 3,
@@ -123,7 +118,32 @@ export const projects = [
     category: "Finance Management",
     link: "#",
     github: "https://github.com/hafourenai/Finance-Manager"
-  }
+  },
+{
+    id: 2,
+    title: "Love U N Vulnerability Scanner",
+    description: "A Python-based tool for automated detection of common web application vulnerabilities.",
+    detailedDescription: "Love U N Vulnerability Scanner performs automated security checks to identify potential vulnerabilities in web applications by analyzing common misconfigurations and attack patterns. Built with a modular design, the tool supports extensible testing modules and demonstrates fundamental vulnerability scanning and web security testing methodologies.",
+    tech: ["Python", "Security Testing", "Web Analysis","Proxy Rotation"],
+    image: "/projects/Test.jpeg", 
+    images: [
+      "/projects/Test1.png",
+      "/projects/Test3.png"
+    ],
+    highlights: ["Tool for learning and testing"],
+    detailedHighlights: [
+      "Custom security test modules",
+      "Automated vulnerability detection",
+      "Clean and efficient Python code",
+      "Learning resource for security",
+      "Pluggable architecture for new tests"
+    ],
+    year: "2026",
+    teamSize: "Individual Project",
+    category: "Vulnerability Assessment",
+    link: "#",
+    github: "https://github.com/hafourenai/Test"
+  },
 ];
 
 export const contactInfo = {
